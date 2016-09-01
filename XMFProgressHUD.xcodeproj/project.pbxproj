@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1736B21D76FC1A00BAD48C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736B11D76FC1A00BAD48C /* main.m */; };
+		3C1736B51D76FC1A00BAD48C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736B41D76FC1A00BAD48C /* AppDelegate.m */; };
+		3C1736B81D76FC1A00BAD48C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736B71D76FC1A00BAD48C /* ViewController.m */; };
+		3C1736BB1D76FC1A00BAD48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736B91D76FC1A00BAD48C /* Main.storyboard */; };
+		3C1736BD1D76FC1A00BAD48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736BC1D76FC1A00BAD48C /* Assets.xcassets */; };
+		3C1736C01D76FC1A00BAD48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1736BE1D76FC1A00BAD48C /* LaunchScreen.storyboard */; };
+		3C1736D21D76FC3200BAD48C /* XMFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736C91D76FC3200BAD48C /* XMFHUD.m */; };
+		3C1736D31D76FC3200BAD48C /* XMFHUDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736CB1D76FC3200BAD48C /* XMFHUDConst.m */; };
+		3C1736D41D76FC3200BAD48C /* XMFNormalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736CD1D76FC3200BAD48C /* XMFNormalHUD.m */; };
+		3C1736D51D76FC3200BAD48C /* XMFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736CF1D76FC3200BAD48C /* XMFProgressHUD.m */; };
+		3C1736D61D76FC3200BAD48C /* XMFThreeBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736D11D76FC3200BAD48C /* XMFThreeBallView.m */; };
+		3C1736DA1D76FC9C00BAD48C /* UIView+XMFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1736D91D76FC9C00BAD48C /* UIView+XMFKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1736AD1D76FC1A00BAD48C /* XMFProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMFProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1736B11D76FC1A00BAD48C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C1736B31D76FC1A00BAD48C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C1736B41D76FC1A00BAD48C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C1736B61D76FC1A00BAD48C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C1736B71D76FC1A00BAD48C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C1736BA1D76FC1A00BAD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1736BC1D76FC1A00BAD48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1736BF1D76FC1A00BAD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1736C11D76FC1A00BAD48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1736C81D76FC3200BAD48C /* XMFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFHUD.h; sourceTree = "<group>"; };
+		3C1736C91D76FC3200BAD48C /* XMFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFHUD.m; sourceTree = "<group>"; };
+		3C1736CA1D76FC3200BAD48C /* XMFHUDConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFHUDConst.h; sourceTree = "<group>"; };
+		3C1736CB1D76FC3200BAD48C /* XMFHUDConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFHUDConst.m; sourceTree = "<group>"; };
+		3C1736CC1D76FC3200BAD48C /* XMFNormalHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFNormalHUD.h; sourceTree = "<group>"; };
+		3C1736CD1D76FC3200BAD48C /* XMFNormalHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFNormalHUD.m; sourceTree = "<group>"; };
+		3C1736CE1D76FC3200BAD48C /* XMFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFProgressHUD.h; sourceTree = "<group>"; };
+		3C1736CF1D76FC3200BAD48C /* XMFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFProgressHUD.m; sourceTree = "<group>"; };
+		3C1736D01D76FC3200BAD48C /* XMFThreeBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFThreeBallView.h; sourceTree = "<group>"; };
+		3C1736D11D76FC3200BAD48C /* XMFThreeBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFThreeBallView.m; sourceTree = "<group>"; };
+		3C1736D81D76FC9C00BAD48C /* UIView+XMFKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMFKeyboard.h"; sourceTree = "<group>"; };
+		3C1736D91D76FC9C00BAD48C /* UIView+XMFKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMFKeyboard.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1736AA1D76FC1A00BAD48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1736A41D76FC1900BAD48C = {
+			isa = PBXGroup;
+			children = (
+				3C1736AF1D76FC1A00BAD48C /* XMFProgressHUD */,
+				3C1736AE1D76FC1A00BAD48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1736AE1D76FC1A00BAD48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736AD1D76FC1A00BAD48C /* XMFProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1736AF1D76FC1A00BAD48C /* XMFProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736C71D76FC3200BAD48C /* XMFProgressView */,
+				3C1736B31D76FC1A00BAD48C /* AppDelegate.h */,
+				3C1736B41D76FC1A00BAD48C /* AppDelegate.m */,
+				3C1736B61D76FC1A00BAD48C /* ViewController.h */,
+				3C1736B71D76FC1A00BAD48C /* ViewController.m */,
+				3C1736B91D76FC1A00BAD48C /* Main.storyboard */,
+				3C1736BC1D76FC1A00BAD48C /* Assets.xcassets */,
+				3C1736BE1D76FC1A00BAD48C /* LaunchScreen.storyboard */,
+				3C1736C11D76FC1A00BAD48C /* Info.plist */,
+				3C1736B01D76FC1A00BAD48C /* Supporting Files */,
+			);
+			path = XMFProgressHUD;
+			sourceTree = "<group>";
+		};
+		3C1736B01D76FC1A00BAD48C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736B11D76FC1A00BAD48C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C1736C71D76FC3200BAD48C /* XMFProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736D71D76FC9C00BAD48C /* Category */,
+				3C1736C81D76FC3200BAD48C /* XMFHUD.h */,
+				3C1736C91D76FC3200BAD48C /* XMFHUD.m */,
+				3C1736CA1D76FC3200BAD48C /* XMFHUDConst.h */,
+				3C1736CB1D76FC3200BAD48C /* XMFHUDConst.m */,
+				3C1736CC1D76FC3200BAD48C /* XMFNormalHUD.h */,
+				3C1736CD1D76FC3200BAD48C /* XMFNormalHUD.m */,
+				3C1736CE1D76FC3200BAD48C /* XMFProgressHUD.h */,
+				3C1736CF1D76FC3200BAD48C /* XMFProgressHUD.m */,
+				3C1736D01D76FC3200BAD48C /* XMFThreeBallView.h */,
+				3C1736D11D76FC3200BAD48C /* XMFThreeBallView.m */,
+			);
+			path = XMFProgressView;
+			sourceTree = "<group>";
+		};
+		3C1736D71D76FC9C00BAD48C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3C1736D81D76FC9C00BAD48C /* UIView+XMFKeyboard.h */,
+				3C1736D91D76FC9C00BAD48C /* UIView+XMFKeyboard.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1736AC1D76FC1A00BAD48C /* XMFProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1736C41D76FC1A00BAD48C /* Build configuration list for PBXNativeTarget "XMFProgressHUD" */;
+			buildPhases = (
+				3C1736A91D76FC1A00BAD48C /* Sources */,
+				3C1736AA1D76FC1A00BAD48C /* Frameworks */,
+				3C1736AB1D76FC1A00BAD48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMFProgressHUD;
+			productName = XMFProgressHUD;
+			productReference = 3C1736AD1D76FC1A00BAD48C /* XMFProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C1736A51D76FC1900BAD48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xumingfa;
+				TargetAttributes = {
+					3C1736AC1D76FC1A00BAD48C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C1736A81D76FC1900BAD48C /* Build configuration list for PBXProject "XMFProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C1736A41D76FC1900BAD48C;
+			productRefGroup = 3C1736AE1D76FC1A00BAD48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1736AC1D76FC1A00BAD48C /* XMFProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1736AB1D76FC1A00BAD48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1736C01D76FC1A00BAD48C /* LaunchScreen.storyboard in Resources */,
+				3C1736BD1D76FC1A00BAD48C /* Assets.xcassets in Resources */,
+				3C1736BB1D76FC1A00BAD48C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1736A91D76FC1A00BAD48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1736D31D76FC3200BAD48C /* XMFHUDConst.m in Sources */,
+				3C1736DA1D76FC9C00BAD48C /* UIView+XMFKeyboard.m in Sources */,
+				3C1736B81D76FC1A00BAD48C /* ViewController.m in Sources */,
+				3C1736D51D76FC3200BAD48C /* XMFProgressHUD.m in Sources */,
+				3C1736D41D76FC3200BAD48C /* XMFNormalHUD.m in Sources */,
+				3C1736B51D76FC1A00BAD48C /* AppDelegate.m in Sources */,
+				3C1736B21D76FC1A00BAD48C /* main.m in Sources */,
+				3C1736D61D76FC3200BAD48C /* XMFThreeBallView.m in Sources */,
+				3C1736D21D76FC3200BAD48C /* XMFHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C1736B91D76FC1A00BAD48C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1736BA1D76FC1A00BAD48C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1736BE1D76FC1A00BAD48C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1736BF1D76FC1A00BAD48C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1736C21D76FC1A00BAD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C1736C31D76FC1A00BAD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1736C51D76FC1A00BAD48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMFProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmf.XMFProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C1736C61D76FC1A00BAD48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMFProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmf.XMFProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1736A81D76FC1900BAD48C /* Build configuration list for PBXProject "XMFProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1736C21D76FC1A00BAD48C /* Debug */,
+				3C1736C31D76FC1A00BAD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1736C41D76FC1A00BAD48C /* Build configuration list for PBXNativeTarget "XMFProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1736C51D76FC1A00BAD48C /* Debug */,
+				3C1736C61D76FC1A00BAD48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C1736A51D76FC1900BAD48C /* Project object */;
+}
